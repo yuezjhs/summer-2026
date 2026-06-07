@@ -1,0 +1,21 @@
+# IDE 配置
+.vscode/
+
+# 编译产物 (无扩展名的可执行文件)
+day-one/dayone
+day_2/day_two_1
+day_2/day_two_2
+
+# 通配：git 会自动识别，以后编译产物加到这里
+*.exe
+*.out
+*.o
+*.obj
+a.out
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
